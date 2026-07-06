@@ -1,0 +1,13 @@
+# Secrets: never commit personal keys
+.env
+.env.*
+*.key
+secrets.json
+
+# Local key-bearing overrides (keep your real key out of git)
+local.mcp.json
+*.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
